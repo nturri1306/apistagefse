@@ -1,0 +1,34 @@
+application:
+  dir: ${user.dir}
+apistagefse:
+  assigning-authority: '&2.16.840.1.113883.2.9.4.3.2&ISO'
+  cache-directory: ${application.dir}/temp
+  cda-attachment-name: cda.xml
+  file-base-sign: ${application.dir}/misc/certificates/sign.json
+  gw-url-service: https://modipa-val.fse.salute.gov.it/govway/rest/in/FSE/gateway
+  repository-dir: C:/pdfRepository
+  schematron-path: ${application.dir}/misc/validazione/schematron
+  trust-password: csa
+  trust-store: classpath:auth.p12
+  trust-store-file: ${application.dir}/misc/certificates/auth.p12
+  user-signature: sign
+  maximum-redeliveries : 1
+  rest-application:
+    - "::1,test,test"
+
+server:
+  port: '8080'
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+  data:
+    mongodb:
+      auto-index-creation: 'true'
+      authentication-database: admin
+      username: root
+      database: apistagefse
+      password: X4gght51!d
+      port: '27017'
+      host: localhost

@@ -1,0 +1,483 @@
+2023-07-04 12:22:47.010 INFO  [main] apistagefse.Application - Starting Application using Java 17.0.6 on DESKTOP-PH2KLTK with PID 18920 (C:\Users\nturri\IdeaProjects\apistagefse\target\classes started by nturri in C:\Users\nturri\IdeaProjects\apistagefse)
+2023-07-04 12:22:47.014 INFO  [main] apistagefse.Application - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 12:22:47.293 INFO  [main] o.o.i.c.c.c.ExtensionModuleFactory - Registering new extension module CoreExtension defined in class org.openehealth.ipf.platform.camel.core.extend.CoreExtensionModule
+2023-07-04 12:22:48.647 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-04 12:22:48.729 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 7 MongoDB repository interfaces.
+2023-07-04 12:22:49.283 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-04 12:22:49.293 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 12:22:49.293 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-04 12:22:49.293 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-07-04 12:22:49.478 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-04 12:22:49.479 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1920 ms
+2023-07-04 12:22:49.783 INFO  [main] org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/IBM Corporation/17.0.6+9"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@e3291f05]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-07-04 12:22:49.806 INFO  [cluster-ClusterId{value='64a3f2f9749c2039458004e7', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:24}] to localhost:27017
+2023-07-04 12:22:49.806 INFO  [cluster-rtt-ClusterId{value='64a3f2f9749c2039458004e7', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2023-07-04 12:22:49.807 INFO  [cluster-ClusterId{value='64a3f2f9749c2039458004e7', description='null'}-localhost:27017] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=29505300}
+2023-07-04 12:22:49.903 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-04 12:22:50.149 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-04 12:22:50.315 INFO  [main] org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:26}] to localhost:27017
+2023-07-04 12:22:53.493 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 12:22:53.533 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 12:22:53.618 INFO  [main] o.a.c.m.JmxManagementStrategy - JMX is enabled
+2023-07-04 12:22:53.961 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Routes startup (total:4 started:4)
+2023-07-04 12:22:53.961 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route1 (seda://create_document)
+2023-07-04 12:22:53.961 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route2 (seda://delete_document)
+2023-07-04 12:22:53.961 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route3 (seda://update_document)
+2023-07-04 12:22:53.961 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route4 (seda://update_metadata)
+2023-07-04 12:22:53.962 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) started in 430ms (build:58ms init:132ms start:240ms)
+2023-07-04 12:22:53.967 INFO  [main] apistagefse.Application - Started Application in 7.502 seconds (JVM running for 8.766)
+2023-07-04 12:23:31.644 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 12:23:31.645 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-04 12:23:31.647 INFO  [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-07-04 12:23:31.782 INFO  [http-nio-8080-exec-2] a.route.rest.impl.PublicationCTL - Begin updateMetadata
+2023-07-04 12:23:31.813 INFO  [Camel (camel-1) thread #4 - seda://update_metadata] route4 - Received an update metadata request
+2023-07-04 12:23:31.832 ERROR [Camel (camel-1) thread #4 - seda://update_metadata] o.a.c.p.e.DefaultErrorHandler - Failed delivery for (MessageId: 9C84DDED59816C8-0000000000000001 on ExchangeId: 9C84DDED59816C8-0000000000000001). Exhausted after delivery attempt: 1 caught: java.lang.NullPointerException: Cannot invoke "org.springframework.web.multipart.MultipartFile.getBytes()" because the return value of "apistagefse.route.rest.service.helper.ParamRequest.getMultipartFile()" is null
+
+Message History (complete message history is disabled)
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route4            ] [route4            ] [from[seda://update_metadata]                                                  ] [        41]
+	...
+[route4            ] [process5          ] [Processor@0x4e96bee4                                                          ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.web.multipart.MultipartFile.getBytes()" because the return value of "apistagefse.route.rest.service.helper.ParamRequest.getMultipartFile()" is null
+	at apistagefse.route.GatewayRoute.lambda$configureUpdateMetadata$4(GatewayRoute.java:224)
+	at org.apache.camel.support.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:65)
+	at org.apache.camel.management.DefaultInstrumentationProcessor.process(DefaultInstrumentationProcessor.java:90)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryTask.doRun(RedeliveryErrorHandler.java:812)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryTask.run(RedeliveryErrorHandler.java:720)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:193)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:64)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:398)
+	at org.apache.camel.component.seda.SedaConsumer.sendToConsumers(SedaConsumer.java:269)
+	at org.apache.camel.component.seda.SedaConsumer.doRun(SedaConsumer.java:187)
+	at org.apache.camel.component.seda.SedaConsumer.run(SedaConsumer.java:130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:857)
+2023-07-04 12:23:31.834 ERROR [http-nio-8080-exec-2] a.route.rest.impl.PublicationCTL - Exception occurred during execution on the exchange: Exchange[9C84DDED59816C8-0000000000000000]
+2023-07-04 12:23:31.834 WARN  [Camel (camel-1) thread #4 - seda://update_metadata] o.a.c.component.seda.SedaConsumer - Error processing exchange. Exchange[9C84DDED59816C8-0000000000000001]. Caused by: [java.lang.NullPointerException - Cannot invoke "org.springframework.web.multipart.MultipartFile.getBytes()" because the return value of "apistagefse.route.rest.service.helper.ParamRequest.getMultipartFile()" is null]
+java.lang.NullPointerException: Cannot invoke "org.springframework.web.multipart.MultipartFile.getBytes()" because the return value of "apistagefse.route.rest.service.helper.ParamRequest.getMultipartFile()" is null
+	at apistagefse.route.GatewayRoute.lambda$configureUpdateMetadata$4(GatewayRoute.java:224)
+	at org.apache.camel.support.processor.DelegateSyncProcessor.process(DelegateSyncProcessor.java:65)
+	at org.apache.camel.management.DefaultInstrumentationProcessor.process(DefaultInstrumentationProcessor.java:90)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryTask.doRun(RedeliveryErrorHandler.java:812)
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryTask.run(RedeliveryErrorHandler.java:720)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:193)
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:64)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:184)
+	at org.apache.camel.impl.engine.CamelInternalProcessor.process(CamelInternalProcessor.java:398)
+	at org.apache.camel.component.seda.SedaConsumer.sendToConsumers(SedaConsumer.java:269)
+	at org.apache.camel.component.seda.SedaConsumer.doRun(SedaConsumer.java:187)
+	at org.apache.camel.component.seda.SedaConsumer.run(SedaConsumer.java:130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:857)
+2023-07-04 12:23:31.838 INFO  [http-nio-8080-exec-2] a.route.rest.impl.PublicationCTL - End public org.springframework.http.ResponseEntity apistagefse.route.rest.impl.PublicationCTL.updateMetadata(java.lang.String,apistagefse.gateway.data.DTO.PublicationMetadataReqDTO,javax.servlet.http.HttpServletRequest)
+2023-07-04 12:24:32.569 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) shutting down (timeout:45s)
+2023-07-04 12:24:34.828 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext - Routes stopped (total:4 stopped:4)
+2023-07-04 12:24:34.829 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext -     Stopped route4 (seda://update_metadata)
+2023-07-04 12:24:34.829 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext -     Stopped route3 (seda://update_document)
+2023-07-04 12:24:34.829 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext -     Stopped route2 (seda://delete_document)
+2023-07-04 12:24:34.829 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext -     Stopped route1 (seda://create_document)
+2023-07-04 12:24:34.835 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) shutdown in 2s266ms (uptime:1m41s)
+2023-07-04 12:26:55.754 INFO  [main] apistagefse.Application - Starting Application using Java 17.0.6 on DESKTOP-PH2KLTK with PID 15764 (C:\Users\nturri\IdeaProjects\apistagefse\target\classes started by nturri in C:\Users\nturri\IdeaProjects\apistagefse)
+2023-07-04 12:26:55.764 INFO  [main] apistagefse.Application - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 12:26:56.124 INFO  [main] o.o.i.c.c.c.ExtensionModuleFactory - Registering new extension module CoreExtension defined in class org.openehealth.ipf.platform.camel.core.extend.CoreExtensionModule
+2023-07-04 12:26:57.717 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-04 12:26:57.869 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 146 ms. Found 7 MongoDB repository interfaces.
+2023-07-04 12:26:58.800 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-04 12:26:58.811 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 12:26:58.812 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-04 12:26:58.812 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-07-04 12:26:59.114 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-04 12:26:59.114 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2621 ms
+2023-07-04 12:26:59.409 INFO  [main] org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/IBM Corporation/17.0.6+9"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@99e8d85a]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-07-04 12:26:59.434 INFO  [cluster-ClusterId{value='64a3f3f33b5a0a51226f2fca', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:27}] to localhost:27017
+2023-07-04 12:26:59.434 INFO  [cluster-rtt-ClusterId{value='64a3f3f33b5a0a51226f2fca', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:28}] to localhost:27017
+2023-07-04 12:26:59.434 INFO  [cluster-ClusterId{value='64a3f3f33b5a0a51226f2fca', description='null'}-localhost:27017] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=30420600}
+2023-07-04 12:26:59.538 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-04 12:26:59.891 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-04 12:27:00.157 INFO  [main] org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:29}] to localhost:27017
+2023-07-04 12:27:06.919 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 12:27:06.999 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 12:27:07.194 INFO  [main] o.a.c.m.JmxManagementStrategy - JMX is enabled
+2023-07-04 12:27:08.167 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Routes startup (total:4 started:4)
+2023-07-04 12:27:08.168 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route1 (seda://create_document)
+2023-07-04 12:27:08.168 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route2 (seda://delete_document)
+2023-07-04 12:27:08.168 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route3 (seda://update_document)
+2023-07-04 12:27:08.168 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route4 (seda://update_metadata)
+2023-07-04 12:27:08.168 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) started in 1s169ms (build:121ms init:426ms start:622ms)
+2023-07-04 12:27:08.182 INFO  [main] apistagefse.Application - Started Application in 13.444 seconds (JVM running for 15.526)
+2023-07-04 12:30:16.758 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) shutting down (timeout:45s)
+2023-07-04 12:33:27.003 ERROR [main] o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at apistagefse.Application.main(Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+2023-07-04 12:37:09.309 ERROR [main] o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [immediateFail], current ElementPath  is [[configuration][appender][immediateFail]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at apistagefse.Application.main(Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [immediateFail], current ElementPath  is [[configuration][appender][immediateFail]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+2023-07-04 12:37:54.063 ERROR [main] o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [immediateFail], current ElementPath  is [[configuration][appender][immediateFail]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at apistagefse.Application.main(Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [immediateFail], current ElementPath  is [[configuration][appender][immediateFail]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+2023-07-04 12:39:48.694 ERROR [main] o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [immediateFail], current ElementPath  is [[configuration][appender][immediateFail]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at apistagefse.Application.main(Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [immediateFail], current ElementPath  is [[configuration][appender][immediateFail]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+2023-07-04 12:44:30.646 ERROR [main] o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [immediateFail], current ElementPath  is [[configuration][appender][immediateFail]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at apistagefse.Application.main(Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [immediateFail], current ElementPath  is [[configuration][appender][immediateFail]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+2023-07-04 12:44:38.137 ERROR [main] o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [immediateFail], current ElementPath  is [[configuration][appender][immediateFail]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at apistagefse.Application.main(Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:24 - no applicable action for [immediateFail], current ElementPath  is [[configuration][appender][immediateFail]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+2023-07-04 12:47:49.388 ERROR [main] o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:344)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at apistagefse.Application.main(Application.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:19 - no applicable action for [username], current ElementPath  is [[configuration][appender][username]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@25:19 - no applicable action for [password], current ElementPath  is [[configuration][appender][password]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:329)
+	... 18 common frames omitted
+2023-07-04 12:48:36.544 INFO  [main] apistagefse.Application - Starting Application using Java 17.0.6 on DESKTOP-PH2KLTK with PID 3508 (C:\Users\nturri\IdeaProjects\apistagefse\target\classes started by nturri in C:\Users\nturri\IdeaProjects\apistagefse)
+2023-07-04 12:48:36.553 INFO  [main] apistagefse.Application - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 12:48:36.826 INFO  [main] o.o.i.c.c.c.ExtensionModuleFactory - Registering new extension module CoreExtension defined in class org.openehealth.ipf.platform.camel.core.extend.CoreExtensionModule
+2023-07-04 12:48:38.026 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-04 12:48:38.110 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 7 MongoDB repository interfaces.
+2023-07-04 12:48:38.750 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-04 12:48:38.760 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 12:48:38.760 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-04 12:48:38.761 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-07-04 12:48:38.935 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-04 12:48:38.935 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1906 ms
+2023-07-04 12:48:39.253 INFO  [main] org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/IBM Corporation/17.0.6+9"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@ddfb0884]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-07-04 12:48:39.266 INFO  [cluster-rtt-ClusterId{value='64a3f90779010f2ea4a2ed26', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:31}] to localhost:27017
+2023-07-04 12:48:39.266 INFO  [cluster-ClusterId{value='64a3f90779010f2ea4a2ed26', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:30}] to localhost:27017
+2023-07-04 12:48:39.266 INFO  [cluster-ClusterId{value='64a3f90779010f2ea4a2ed26', description='null'}-localhost:27017] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=29475600}
+2023-07-04 12:48:39.395 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-04 12:48:39.647 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-04 12:48:39.864 INFO  [main] org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:32}] to localhost:27017
+2023-07-04 12:48:43.997 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 12:48:44.053 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 12:48:44.206 INFO  [main] o.a.c.m.JmxManagementStrategy - JMX is enabled
+2023-07-04 12:48:44.723 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Routes startup (total:4 started:4)
+2023-07-04 12:48:44.723 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route1 (seda://create_document)
+2023-07-04 12:48:44.723 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route2 (seda://delete_document)
+2023-07-04 12:48:44.723 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route3 (seda://update_document)
+2023-07-04 12:48:44.723 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route4 (seda://update_metadata)
+2023-07-04 12:48:44.723 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) started in 653ms (build:59ms init:252ms start:342ms)
+2023-07-04 12:48:44.730 INFO  [main] apistagefse.Application - Started Application in 8.654 seconds (JVM running for 10.365)
+2023-07-04 12:48:53.206 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) shutting down (timeout:45s)
+2023-07-04 12:49:07.867 INFO  [main] apistagefse.Application - Starting Application using Java 17.0.6 on DESKTOP-PH2KLTK with PID 21184 (C:\Users\nturri\IdeaProjects\apistagefse\target\classes started by nturri in C:\Users\nturri\IdeaProjects\apistagefse)
+2023-07-04 12:49:07.871 INFO  [main] apistagefse.Application - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 12:49:08.168 INFO  [main] o.o.i.c.c.c.ExtensionModuleFactory - Registering new extension module CoreExtension defined in class org.openehealth.ipf.platform.camel.core.extend.CoreExtensionModule
+2023-07-04 12:49:09.511 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-04 12:49:09.677 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 160 ms. Found 7 MongoDB repository interfaces.
+2023-07-04 12:49:10.355 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-04 12:49:10.363 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 12:49:10.363 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-04 12:49:10.363 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-07-04 12:49:10.561 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-04 12:49:10.563 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2188 ms
+2023-07-04 12:49:10.826 INFO  [main] org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/IBM Corporation/17.0.6+9"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@b1360db5]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-07-04 12:49:10.839 INFO  [cluster-rtt-ClusterId{value='64a3f92643ca756837a2bef9', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:33}] to localhost:27017
+2023-07-04 12:49:10.839 INFO  [cluster-ClusterId{value='64a3f92643ca756837a2bef9', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:34}] to localhost:27017
+2023-07-04 12:49:10.839 INFO  [cluster-ClusterId{value='64a3f92643ca756837a2bef9', description='null'}-localhost:27017] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=37229800}
+2023-07-04 12:49:10.995 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-04 12:49:11.271 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-04 12:49:11.475 INFO  [main] org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:35}] to localhost:27017
+2023-07-04 12:49:15.824 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 12:49:15.883 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 12:49:16.050 INFO  [main] o.a.c.m.JmxManagementStrategy - JMX is enabled
+2023-07-04 12:49:16.610 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Routes startup (total:4 started:4)
+2023-07-04 12:49:16.611 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route1 (seda://create_document)
+2023-07-04 12:49:16.611 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route2 (seda://delete_document)
+2023-07-04 12:49:16.611 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route3 (seda://update_document)
+2023-07-04 12:49:16.611 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route4 (seda://update_metadata)
+2023-07-04 12:49:16.611 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) started in 702ms (build:71ms init:260ms start:371ms)
+2023-07-04 12:49:16.618 INFO  [main] apistagefse.Application - Started Application in 9.217 seconds (JVM running for 10.931)
+2023-07-04 12:50:24.102 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) shutting down (timeout:45s)
+2023-07-04 15:43:01.871 INFO  [main] apistagefse.Application - Starting Application using Java 17.0.6 on DESKTOP-PH2KLTK with PID 19012 (C:\Users\nturri\IdeaProjects\apistagefse\target\classes started by nturri in C:\Users\nturri\IdeaProjects\apistagefse)
+2023-07-04 15:43:01.878 INFO  [main] apistagefse.Application - No active profile set, falling back to 1 default profile: "default"
+2023-07-04 15:43:02.360 INFO  [main] o.o.i.c.c.c.ExtensionModuleFactory - Registering new extension module CoreExtension defined in class org.openehealth.ipf.platform.camel.core.extend.CoreExtensionModule
+2023-07-04 15:43:04.541 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-04 15:43:04.691 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 143 ms. Found 7 MongoDB repository interfaces.
+2023-07-04 15:43:05.622 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-04 15:43:05.635 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:43:05.636 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-04 15:43:05.636 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-07-04 15:43:05.836 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-04 15:43:05.836 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3054 ms
+2023-07-04 15:43:06.300 INFO  [main] org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/IBM Corporation/17.0.6+9"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@ff689dcb]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-07-04 15:43:06.322 INFO  [cluster-ClusterId{value='64a421ea36afa85976d581e5', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:36}] to localhost:27017
+2023-07-04 15:43:06.322 INFO  [cluster-rtt-ClusterId{value='64a421ea36afa85976d581e5', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:37}] to localhost:27017
+2023-07-04 15:43:06.323 INFO  [cluster-ClusterId{value='64a421ea36afa85976d581e5', description='null'}-localhost:27017] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=38930700}
+2023-07-04 15:43:06.513 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-04 15:43:06.918 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-04 15:43:07.189 INFO  [main] org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:38}] to localhost:27017
+2023-07-04 15:43:11.594 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-04 15:43:11.635 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-04 15:43:11.806 INFO  [main] o.a.c.m.JmxManagementStrategy - JMX is enabled
+2023-07-04 15:43:12.616 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Routes startup (total:4 started:4)
+2023-07-04 15:43:12.617 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route1 (seda://create_document)
+2023-07-04 15:43:12.617 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route2 (seda://delete_document)
+2023-07-04 15:43:12.618 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route3 (seda://update_document)
+2023-07-04 15:43:12.618 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route4 (seda://update_metadata)
+2023-07-04 15:43:12.618 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) started in 969ms (build:94ms init:309ms start:566ms)
+2023-07-04 15:43:12.630 INFO  [main] apistagefse.Application - Started Application in 11.846 seconds (JVM running for 13.827)
+2023-07-04 15:43:44.259 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 15:43:44.260 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-04 15:43:44.263 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-07-04 15:43:45.025 INFO  [http-nio-8080-exec-2] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 513 ms
+2023-07-04 15:44:26.867 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) shutting down (timeout:45s)
+2023-07-04 15:44:29.431 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext - Routes stopped (total:4 stopped:4)
+2023-07-04 15:44:29.431 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext -     Stopped route4 (seda://update_metadata)
+2023-07-04 15:44:29.431 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext -     Stopped route3 (seda://update_document)
+2023-07-04 15:44:29.431 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext -     Stopped route2 (seda://delete_document)
+2023-07-04 15:44:29.431 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext -     Stopped route1 (seda://create_document)
+2023-07-04 15:44:29.436 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) shutdown in 2s569ms (uptime:1m17s)
+2023-07-05 17:28:59.658 INFO  [main] apistagefse.Application - Starting Application using Java 17.0.6 on DESKTOP-PH2KLTK with PID 12556 (C:\Users\nturri\IdeaProjects\apistagefse20230704\apistagefse\target\classes started by nturri in C:\Users\nturri\IdeaProjects\apistagefse20230704\apistagefse)
+2023-07-05 17:28:59.661 INFO  [main] apistagefse.Application - No active profile set, falling back to 1 default profile: "default"
+2023-07-05 17:29:00.056 INFO  [main] o.o.i.c.c.c.ExtensionModuleFactory - Registering new extension module CoreExtension defined in class org.openehealth.ipf.platform.camel.core.extend.CoreExtensionModule
+2023-07-05 17:29:01.403 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-07-05 17:29:01.484 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 7 MongoDB repository interfaces.
+2023-07-05 17:29:02.182 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-05 17:29:02.195 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-07-05 17:29:02.196 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-07-05 17:29:02.196 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-07-05 17:29:02.403 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-07-05 17:29:02.403 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2098 ms
+2023-07-05 17:29:02.684 INFO  [main] org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/IBM Corporation/17.0.6+9"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='root', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@a039167d]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-07-05 17:29:02.694 INFO  [cluster-ClusterId{value='64a58c3e5da9fc5b28916287', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:113}] to localhost:27017
+2023-07-05 17:29:02.694 INFO  [cluster-rtt-ClusterId{value='64a58c3e5da9fc5b28916287', description='null'}-localhost:27017] org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:112}] to localhost:27017
+2023-07-05 17:29:02.694 INFO  [cluster-ClusterId{value='64a58c3e5da9fc5b28916287', description='null'}-localhost:27017] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=22762200}
+2023-07-05 17:29:02.789 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-05 17:29:03.013 WARN  [main] o.s.data.convert.CustomConversions - Registering converter from class java.time.LocalDateTime to class org.joda.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-07-05 17:29:03.155 INFO  [main] org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:114}] to localhost:27017
+2023-07-05 17:29:06.115 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-07-05 17:29:06.151 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-05 17:29:06.229 INFO  [main] o.a.c.m.JmxManagementStrategy - JMX is enabled
+2023-07-05 17:29:06.605 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Routes startup (total:4 started:4)
+2023-07-05 17:29:06.605 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route1 (seda://create_document)
+2023-07-05 17:29:06.606 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route2 (seda://delete_document)
+2023-07-05 17:29:06.606 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route3 (seda://update_document)
+2023-07-05 17:29:06.606 INFO  [main] o.a.c.i.engine.AbstractCamelContext -     Started route4 (seda://update_metadata)
+2023-07-05 17:29:06.606 INFO  [main] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) started in 462ms (build:54ms init:158ms start:250ms)
+2023-07-05 17:29:06.611 INFO  [main] apistagefse.Application - Started Application in 7.499 seconds (JVM running for 9.261)
+2023-07-05 17:39:28.175 INFO  [SpringApplicationShutdownHook] o.a.c.i.engine.AbstractCamelContext - Apache Camel 3.14.4 (camel-1) shutting down (timeout:45s)

@@ -1,0 +1,22 @@
+{
+    "alg":"rs256",
+    "typ":"jwt",
+	"sub": "PROVAX00X00X000Y^^^&2.16.840.1.113883.2.9.4.3.2&ISO",
+	"subject_role": "AAS",
+	"purpose_of_use": "TREATMENT",
+	"iss": "S1#111CONSORZIOCSA",
+	"subject_application_id": "fse2broker",
+	"subject_application_vendor": "Unidoc SRL",
+	"subject_application_version": "V.1.0.0",
+	"locality": "rome",
+	"subject_organization_id": "120",
+	"subject_organization": "Regione Lazio",
+	"aud" : "https://modipa-val.fse.salute.gov.it/govway/rest/in/FSE/gateway/v1",
+	"patient_consent": true,
+    "action_id": "CREATE",
+	"resource_hl7_type": "('87273-9^^2.16.840.1.113883.6.1')",
+	"jti": "3722467",
+	"person_id":"RSSMRA75C03F839K^^^&2.16.840.1.113883.2.9.4.3.2&ISO",
+	"pem_path": "/misc/certificates/sign.pem",
+	"p12_path": "/misc/certificates/sign.p12"
+}

@@ -107,6 +107,8 @@ public class DaoFactory {
             entity.setCda_xml(ex.getCda_xml());
             entity.setCda_json(ex.getCda_json());
 
+            entity.setData_inizio_validita(ex.getSignatureInfo().getValidityStartDate());
+            entity.setData_fine_validita(ex.getSignatureInfo().getValidityEndDate());
 
         } catch (Exception ex) {
             log.error("Unable to extract data from file", ex);

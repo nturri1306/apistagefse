@@ -5,6 +5,7 @@ import apistagefse.CdaExtractor;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import org.apache.pdfbox.signature.SignatureInfo;
 import org.w3c.dom.Node;
 
 import javax.xml.xpath.XPathExpressionException;
@@ -24,6 +25,10 @@ public class FseCdaExtractor extends CdaExtractor {
 
     private String cda_json;
 
+
+    private SignatureInfo signatureInfo;
+
+
     public String getCda_json() {
         return cda_json;
     }
@@ -39,6 +44,14 @@ public class FseCdaExtractor extends CdaExtractor {
     public void setCda_xml(String cda_xml) {
         this.cda_xml = cda_xml;
         setJson();
+    }
+
+    public SignatureInfo getSignatureInfo() {
+        return signatureInfo;
+    }
+
+    public void setSignatureInfo(SignatureInfo signatureInfo) {
+        this.signatureInfo = signatureInfo;
     }
 
 

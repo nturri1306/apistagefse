@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.pdfbox.signature.SignatureInfo;
 import org.springframework.data.mongodb.core.index.Indexed;
 
 import java.time.LocalDateTime;
@@ -31,6 +32,8 @@ public class ClinicalDocumentArchitectureEntity extends BrokerEntity {
 	// ClinicalDocument/legalAuthenticator/assignedEntity/id@extension (id) and id@root (authority), ClinicalDocument/legalAuthenticator/time@extension (time)
 	private Identifier authenticator;
 
+	private SignatureInfo signatureInfo;
+
 	public void setPatient(String id, String authority) {
 		patient = new Identifier(id, authority);
 	}
@@ -47,8 +50,23 @@ public class ClinicalDocumentArchitectureEntity extends BrokerEntity {
 		authenticator = new Identifier(id, authority, DateHelper.toDate(time));
 	}
 
+	public SignatureInfo getSignatureInfo() {
+		return signatureInfo;
+	}
+
+	public void setSignatureInfo(SignatureInfo signatureInfo) {
+		this.signatureInfo = signatureInfo;
+	}
+
+
+
 	private String cda_xml;
 	private String cda_json;
+
+
+	private Date data_inizio_validita;
+	private Date data_fine_validita;
+
 
 	@Getter
 	@Setter

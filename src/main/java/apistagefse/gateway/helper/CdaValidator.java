@@ -11,6 +11,7 @@ import com.helger.commons.io.resource.IReadableResource;
 import com.helger.commons.io.resource.inmemory.ReadableResourceInputStream;
 import com.helger.schematron.xslt.SchematronResourceSCH;
 import org.apache.logging.log4j.util.Strings;
+import org.apache.pdfbox.signature.PdfSignatureInfo;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -74,6 +75,9 @@ public class CdaValidator {
 
         extractor.setCda_xml(new String(out.getBytes()));
 
+        var signatureInfo = PdfSignatureInfo.getSignatureInfo(s.getFile().getAbsolutePath());
+
+        extractor.setSignatureInfo(signatureInfo);
 
         source = s.getFile();
 
